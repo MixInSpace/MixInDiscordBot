@@ -1,0 +1,22 @@
+{
+  "name": "mixindiscordbot",
+  "version": "1.0.0",
+  "description": "Discord bot for MixIn's server",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "keywords": [
+    "bot",
+    "discord"
+  ],
+  "author": "MixInSpace",
+  "license": "MIT",
+  "dependencies": {
+    "ascii-table": "^0.0.9",
+    "colors": "^1.4.0",
+    "discord-js-handler": "github:Tomato6966/discord-js-v14-handler",
+    "discord.js": "^14.7.1",
+    "dotenv": "^16.0.3"
+  }
+}

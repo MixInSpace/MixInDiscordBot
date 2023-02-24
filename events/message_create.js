@@ -3,6 +3,7 @@ const {ChannelType} = require("discord.js")
 const prefix = client.prefix
 
 client.on("messageCreate", async(message) =>{
+    console.log(message.content)
     if(message.author.bot) return // if the author is bot
     if(message.channel.type != ChannelType.GuildText) return // if it is not a text message in the guild
     if(!message.content.startsWith(prefix)) return //check if it starts with prefix

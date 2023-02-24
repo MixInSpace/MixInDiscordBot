@@ -22,6 +22,8 @@ module.exports = client
 
 client.commands = new Collection()
 client.aliases = new Collection()
+client.slashCommands = new Collection()
+client.assets = new Collection()
 client.prefix = process.env.PREFIX
 
 // load the handlers

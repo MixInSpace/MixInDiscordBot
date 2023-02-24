@@ -4,7 +4,7 @@
   "description": "Discord bot for MixIn's server",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon index.js"
+    "start": "node ./index.js"
   },
   "keywords": [
     "bot",
@@ -15,9 +15,9 @@
   "dependencies": {
     "ascii-table": "^0.0.9",
     "colors": "^1.4.0",
+    "discord-api-types": "^0.37.35",
     "discord-js-handler": "github:Tomato6966/discord-js-v14-handler",
     "discord.js": "^14.7.1",
-    "dotenv": "^16.0.3",
-    "nodemon": "^2.0.20"
+    "dotenv": "^16.0.3"
   }
 }
